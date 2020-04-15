@@ -17,13 +17,18 @@ a {
 
 .container {
   max-width: 1170px;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
+.container span {
+  font-color: #ff0000;
+}
+
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(banner.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -50,17 +55,17 @@ a {
   margin: 10px 0;
 }
 
-.signup {
+.masukan {
   background-color: #239b76;
 }
 
-.facebook {
-  background-color: #3b5998;
+.email {
+  background-color: #FF5733;
   margin-right: 10px;
 }
 
-.twitter {
-  background-color: #55acee;
+.instagram {
+  background-color: #FFA833;
 }
 
 .btn {
@@ -116,13 +121,16 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu-icon{
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  /* Gantikan property display ke none */
   display: none;
 }
+
 
 .lesson-wrapper {
   padding-bottom: 80px;
